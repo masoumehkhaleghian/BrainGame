@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Calculator</string>
+    <string-array name="level_calculator">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Impossible</item>
+    </string-array>
+    <string name="title_activity_calculator" tools:ignore="MissingTranslation">Calculator</string>
+    <string name="easy" tools:ignore="MissingTranslation">Easy</string>
+    <string name="medium" tools:ignore="MissingTranslation">Medium</string>
+    <string name="hard" tools:ignore="MissingTranslation">Hard</string>
+    <string name="impossible" tools:ignore="MissingTranslation">Impossible</string>
+    <string name="calc" tools:ignore="MissingTranslation">Calc</string>
+    <string name="play_calculator" tools:ignore="MissingTranslation">How To Play Calculator !</string>
+    <string name="start" tools:ignore="MissingTranslation">Start</string>
+    <string name="home" tools:ignore="MissingTranslation">Home</string>
+    <string name="play_again" tools:ignore="MissingTranslation">Play Again</string>
+    <string name="dialog_exit">Do you want to exit?</string>
+    <string name="no_button">No</string>
+    <string name="yes_button">Yes</string>
+    <string name="clear" tools:ignore="MissingTranslation">Clear</string>
+    <string name="incorrect" tools:ignore="MissingTranslation"> Incorrect!</string>
+    <string name="correct" tools:ignore="MissingTranslation"> Correct!</string>
+    <string name="record" tools:ignore="MissingTranslation">  Your Record Is = </string>
+    <string name="part1winn" tools:ignore="MissingTranslation">You Win! And Correct Answer is </string>
+    <string name="part2winn" tools:ignore="MissingTranslation"> And Incorrect Answer Is </string>
+    <string name="part1losee" tools:ignore="MissingTranslation">You Lose! Time Off And Correct Answer Is </string>
+    <string name="part2losee" tools:ignore="MissingTranslation"> And Incorrect Answer Is </string>
+</resources>

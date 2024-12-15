@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ماشین حساب</string>
+    <string-array name="level_calculator">
+        <item>آسان</item>
+        <item>متوسط</item>
+        <item>سخت</item>
+        <item>غیرممکن</item>
+    </string-array>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="easy">آسان</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">سخت</string>
+    <string name="impossible">غیرممکن</string>
+    <string name="calc">Calc</string>
+    <string name="play_calculator">چگونه ماشین حساب بازی کنیم!</string>
+    <string name="start">شروع</string>
+    <string name="home">صفحه اصلی</string>
+    <string name="play_again">بازی دوباره</string>
+    <string name="dialog_exit">آیا می خواهید خارج شوید؟</string>
+    <string name="no_button">خیر</string>
+    <string name="yes_button">بله</string>
+    <string name="clear">پاک کن</string>
+    <string name="incorrect">نادرسته!</string>
+    <string name="correct"> درسته!</string>
+    <string name="record"> بهترین سابقه شما =</string>
+    <string name="part1winn">شما برنده شدید! و پاسخ صحیح شما برابر است با  </string>
+    <string name="part2winn"> و پاسخ نادرست شما برابر است با  </string>
+    <string name="part1losee">شما باختید! زمان شما تمام شد و پاسخ صحیح شما برابر است با </string>
+    <string name="part2losee"> و پاسخ نادرست شما برابر است با </string>
+</resources>
