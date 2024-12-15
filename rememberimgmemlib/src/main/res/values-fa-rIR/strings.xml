@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حافظه کوتاه مدت</string>
+    <string-array name="level_img_mem_rem">
+        <item>آسان</item>
+        <item>متوسط</item>
+        <item>سخت</item>
+    </string-array>
+    <string name="title_activity_rememberImgMem">RememberImgMem</string>
+    <string name="easy">آسان</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">سخت</string>
+    <string name="home">صفحه اصلی</string>
+    <string name="play_again">بازی دوباره</string>
+    <string name="dialog_exit">آیا می خواهید خارج شوید؟</string>
+    <string name="no_button">خیر</string>
+    <string name="yes_button">بله</string>
+    <string name="Photographic_Memory">تقویت حافظه تصویری !</string>
+    <string name="start">شروع</string>
+    <string name="record">   و بهترین سابقه شما = </string>
+    <string name="win">شما بردید! </string>
+    <string name="lose"> شما باختید! قلب های شما تمام شده است و شما سطوح بازی را کامل نکردید </string>
+    <string name="correct">درست</string>
+    <string name="incorrect">نادرست</string>
+</resources>
