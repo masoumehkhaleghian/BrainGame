@@ -1,0 +1,5 @@
+include ':app', ':rememberimgmemlib'
+include ':app', ':xolib'
+include ':app', ':imgmemlib'
+include ':app', ':calculatorlib'
+rootProject.name='End'
