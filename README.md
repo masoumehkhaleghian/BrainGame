@@ -89,7 +89,7 @@ A fast-paced arithmetic game to improve mental math skills.
 
 ## Screenshots
 
-Screenshots of the app interface and gameplay are available in the `pics` folder of the repository.
+Screenshots of the app interface and gameplay are available in the `pic` folder of the repository.
 
 ---
 
