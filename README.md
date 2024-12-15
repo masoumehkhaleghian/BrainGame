@@ -50,7 +50,7 @@ A memory game that challenges you to remember and locate images.
 ### XO
 The classic Tic-Tac-Toe game with a modern twist.
 - **Modes**: Play against the system or a friend.
-- **Difficulty Levels**: Easy, Medium, Hard, Impossible (for single-player).
+- **Difficulty Levels**: Easy, Medium, Hard, Impossible (powered by the Minimax algorithm for single-player mode).
 - **Skills Developed**: Logical reasoning, strategic thinking.
 
 ### Match Me
