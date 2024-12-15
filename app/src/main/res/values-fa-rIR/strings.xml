@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بازی مغز</string>
+    <string name="about_game">این بازی برای افزایش هوش و حافظه است و به شما کمک می کند حافظه خود را مجبور به کار کنید. همچنین ضریب هوشی شما را افزایش می دهد و برای افراد ucmas مناسب است. امیدوارم که لذت ببرید.</string>
+    <string name="about_me">طراح و سازنده: معصومه خالقیان</string>
+    <string name="find_me"> می تونی من رو پیدا کنی؟</string>
+    <string name="lose_me"> می تونی من رو شکست بدی؟ </string>
+    <string name="match_me">می تونی من رو جور کنی؟</string>
+    <string name="calc_me">می تونی من رو محاسبه کنی؟</string>
+    <string name="play">شروع بازی</string>
+    <string name="setting">تنظیمات</string>
+    <string name="about">درباره بازی</string>
+    <string name="language">زبان</string>
+    <string name="mute_sound">بی صدا کردن فعالیت ها</string>
+    <string name="unmute_sound">صدا دار شدن فعالیت ها</string>
+    <string name="mute_music">بی صدا کردن موسیقی</string>
+    <string name="unmute_music">صدا دار شدن موسیقی</string>
+    <string name="dialog_exit">آیا می خواهید خارج شوید؟</string>
+    <string name="no_button">خیر</string>
+    <string name="yes_button">بله</string>
+    <string name="welcome">به بازی مغز خوش اومدید!</string>
+</resources>

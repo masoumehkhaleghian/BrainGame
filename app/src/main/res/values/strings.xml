@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <integer-array name="androidcolors">
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/bluee</item>
+    </integer-array>
+    <string name="app_name">Brain Game</string>
+    <string name="about_game">This game is for increasing intelligence and memory and helps you to force your memory to work.It also increases your iq and is suitable for ucmas people. Hope you enjoy.</string>
+    <string name="about_me">Designer and manufacturer:  Masoumeh Khaleghian</string>
+    <string name="find_me">Can find me?</string>
+    <string name="lose_me">Can lose me?</string>
+    <string name="match_me">Can match me?</string>
+    <string name="calc_me">Can calculate me?</string>
+    <string name="play">Play Game</string>
+    <string name="setting">Settings</string>
+    <string name="about">About Game</string>
+    <string name="language">Language</string>
+    <string name="mute_sound">Mute Sound</string>
+    <string name="unmute_sound">Unmute Sound</string>
+    <string name="mute_music">Mute Music</string>
+    <string name="unmute_music">Unmute Music</string>
+    <string name="dialog_exit">Do you want to exit?</string>
+    <string name="no_button">No</string>
+    <string name="yes_button">Yes</string>
+    <string name="welcome">Welcome To Brain Game!</string>
+</resources>
