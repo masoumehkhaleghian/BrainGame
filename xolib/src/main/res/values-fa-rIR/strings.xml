@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دوز</string>
+    <string name="player1nameHint">نام بازیکن 1</string>
+    <string name="player1">بازیکن 1</string>
+    <string name="player2nameHint">نام بازیکن 2</string>
+    <string name="player2">بازیکن 2</string>
+    <string name="game">بازی #</string>
+    <string name="single_player"> تک نفره</string>
+    <string name="two_player"> دو نفره</string>
+    <string name="title_activity_afterstart">XO</string>
+    <string name="easy">آسان</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">سخت</string>
+    <string name="impossible">غیرممکن</string>
+    <string name="reset">بازی از اول</string>
+    <string name="play_again">بازی دوباره</string>
+    <string name="dialog_exit">آیا می خواهید خارج شوید؟</string>
+    <string name="no_button">خیر</string>
+    <string name="yes_button">بله</string>
+    <string name="start">شروع</string>
+    <string name="turn">نوبت</string>
+    <string name="won">بردی!</string>
+    <string name="loseee">باختی!</string>
+    <string name="draw">مساوی شدید!</string>
+    <string name="recordd">    بهترین سابقه شما  </string>
+    <string name="score">  امتیاز شما برابر است با</string>
+    <string name="cpu"> سیستم </string>
+</resources>

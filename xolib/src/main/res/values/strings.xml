@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="player1nameHint" tools:ignore="MissingTranslation">player1 name</string>
+    <string name="player1" tools:ignore="MissingTranslation">player 1</string>
+    <string name="player2nameHint" tools:ignore="MissingTranslation">player2 name</string>
+    <string name="player2" tools:ignore="MissingTranslation">player 2</string>
+    <string name="game" tools:ignore="MissingTranslation">Game #</string>
+    <string name="single_player" tools:ignore="MissingTranslation"> Single player</string>
+    <string name="two_player" tools:ignore="MissingTranslation"> Two player</string>
+    <string name="title_activity_afterstart" tools:ignore="MissingTranslation">XO</string>
+    <string name="easy" tools:ignore="MissingTranslation">Easy</string>
+    <string name="medium" tools:ignore="MissingTranslation">Medium</string>
+    <string name="hard" tools:ignore="MissingTranslation">Hard</string>
+    <string name="impossible" tools:ignore="MissingTranslation">Impossible</string>
+    <string name="reset" tools:ignore="MissingTranslation">RESET</string>
+    <string name="play_again" tools:ignore="MissingTranslation">PLAY AGAIN</string>
+    <string name="dialog_exit">Do you want to exit?</string>
+    <string name="no_button">No</string>
+    <string name="yes_button">Yes</string>
+    <string name="start" tools:ignore="MissingTranslation">start</string>
+    <string name="turn" tools:ignore="MissingTranslation">\'s turn</string>
+    <string name="won" tools:ignore="MissingTranslation">won!</string>
+    <string name="loseee" tools:ignore="MissingTranslation">lose!</string>
+    <string name="draw" tools:ignore="MissingTranslation">This is a draw !</string>
+    <string name="recordd" tools:ignore="MissingTranslation">  Your Record Is  </string>
+    <string name="score" tools:ignore="MissingTranslation"> Your Score Is </string>
+    <string name="cpu" tools:ignore="MissingTranslation"> System </string>
+
+</resources>

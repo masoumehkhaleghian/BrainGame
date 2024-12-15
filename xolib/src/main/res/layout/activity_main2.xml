@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:theme="@style/AppTheme"
+    tools:context="com.khaleghian.masi.xolib.MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonBack7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:layoutDirection="ltr"
+        android:visibility="visible"
+        app:backgroundTint="#fd9298 "
+        app:fabSize="mini"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:ignore="KeyboardInaccessibleWidget" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/main"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="355dp"
+        android:layout_height="439dp"
+        android:orientation="vertical"
+        android:paddingStart="40dp"
+        android:paddingTop="40dp"
+        tools:ignore="ExtraText,RtlSymmetry">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="XO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/playerone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="@string/player1nameHint"
+            android:imeActionLabel="NEXT"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences|textPersonName"
+            android:outlineAmbientShadowColor="@color/yellow"
+            android:outlineSpotShadowColor="@color/yellow"
+            android:shadowColor="@color/yellow"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/blue" />
+         
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="3">
+
+
+            <CheckBox
+                android:id="@+id/player1x"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text=" X "
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/player1o"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text=" O "
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/playertwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/player2nameHint"
+            android:imeActionLabel="DONE"
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences|textPersonName"
+            android:textColorHint="@color/blue" />
+         
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:weightSum="3">
+
+
+            <CheckBox
+                android:id="@+id/player2x"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text=" X "
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/player2o"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text=" O "
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/splayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layoutDirection="ltr"
+                    android:text="@string/single_player"
+                    android:textDirection="ltr" />
+
+                <CheckBox
+                    android:id="@+id/tplayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layoutDirection="ltr"
+                    android:text="@string/two_player"
+                    android:textDirection="ltr" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/difficulty"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:hint="difficulty"
+                android:layoutDirection="ltr"></Spinner>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginBottom="114dp"
+        android:background="@color/pink"
+        android:fontFamily="sans-serif"
+        android:onClick="startgame"
+        android:text="@string/start"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
+
+
