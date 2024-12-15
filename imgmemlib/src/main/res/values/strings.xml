@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ImgMem</string>
+    <string-array name="level_imgMemm">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="title_activity_imageMemory" tools:ignore="MissingTranslation">ImageMemory</string>
+    <string name="easy" tools:ignore="MissingTranslation">Easy</string>
+    <string name="medium" tools:ignore="MissingTranslation">Medium</string>
+    <string name="hard" tools:ignore="MissingTranslation">Hard</string>
+    <string name="home" tools:ignore="MissingTranslation">Home</string>
+    <string name="play_again" tools:ignore="MissingTranslation">Play Again</string>
+    <string name="dialog_exit">Do you want to exit?</string>
+    <string name="no_button">No</string>
+    <string name="yes_button">Yes</string>
+    <string name="flower" tools:ignore="MissingTranslation">Flower</string>
+    <string name="cartoon" tools:ignore="MissingTranslation">Cartoon</string>
+    <string name="car" tools:ignore="MissingTranslation">Car</string>
+    <string name="alphabet" tools:ignore="MissingTranslation">Alphabet</string>
+    <string name="flag" tools:ignore="MissingTranslation">Flag</string>
+    <string name="number" tools:ignore="MissingTranslation">Number</string>
+    <string name="record" tools:ignore="MissingTranslation">  Your Record Is = </string>
+    <string name="losee" tools:ignore="MissingTranslation">You Lose! Time Off And</string>
+    <string name="part1win" tools:ignore="MissingTranslation">You Win! And Your Choice Is </string>
+    <string name="part2win" tools:ignore="MissingTranslation"> And Time Spend Is =</string>
+</resources>
